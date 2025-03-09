@@ -2,6 +2,7 @@ body{
     height: 100%;
     width: 100%;
     background-color:rgb(19, 18, 18);
+    overflow-x: hidden;
 }
 
 /*Header start*/
@@ -11,7 +12,7 @@ body{
 }
 
 .section1 .name{
-    padding-left: 150px;
+    padding-left: 200px;
     font-size: 45px;
     color: orangered;
     font-weight: 700;
@@ -48,7 +49,7 @@ body{
 .section2 .text1-pic1{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    padding-left: 150px;
+    padding-left: 200px;
     padding-right: 150px;
     height: 600px;
 }
@@ -168,7 +169,7 @@ color: white;
 
 /*Section 4 Start*/
 .section4{
-    padding-left: 150px;
+    padding-left: 200px;
     padding-right: 150px;
 }
 
@@ -183,7 +184,133 @@ color: white;
     border: 5px solid rgb(70, 69, 69);
     border-radius: 50%;
     width: 250px;
-    padding: 10px;
+    justify-content: center;   
+    justify-items: center;
+    text-align: justify;
+    margin-left: 70px;
+}
+
+.section4 .pic-section-2 h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+.section4 .pic-section-2 h3{
+color: rgb(138, 140, 141);
+text-align: center;
 }
 
 /*Section 4 End*/
+
+/*section 5 start*/
+
+.section5{
+    padding-left: 200px;
+    padding-right: 150px;
+    width: 80%;
+    padding-top:100px;
+}
+
+.section5 .extra-run{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color:rgb(48, 47, 47);
+    height: 450px;
+    border-radius: 20px;
+}
+
+
+.section5 .extra-run .text3{
+  padding-left: 75px;  
+  padding-top: 30px;
+}
+
+
+.section5 .extra-run .text3 h1{
+    font-size: 50px;
+    color: azure;
+    font-weight: bolder;
+}
+
+.section5 .extra-run .text3 h3{
+    font-size: 20px;
+    color: rgb(138, 140, 141);
+}
+
+.section5 .extra-run .pic2 img{
+    width:400px ;
+    height: 350px;
+    padding-top: 55px;
+    padding-left: 300px;
+    border-radius: 20px;
+}
+
+
+.section5 .extra-run .text3 .btn3{
+   border: 1px solid orangered;
+   padding:20px 70px;
+   font-size: 25px;
+   color: whitesmoke;
+   background-color: orangered;
+   border-radius: 20px;
+   cursor: pointer;
+}
+
+
+/*Section 5 End*/
+
+/* Section 6 Start*/
+
+.section6{
+    padding-left: 200px;
+    padding-right: 150px;
+    padding-top: 100px;
+    line-height: 30px;
+}
+
+
+.section6 .text4 h1{
+  font-size: 70px;
+  color: aliceblue;
+}
+
+
+.section6 .text4 h3{
+    color: rgb(140, 140, 141);
+}
+
+/* Section 6 End*/
+
+/*Section 7 Start*/
+
+.section7{
+    padding-left: 200px;
+    padding-right: 150px;
+    padding-top: 100px;
+}
+
+.section7 .pic-section-3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+.section7 .pic-section-3 img{
+    width:500px;
+    height: 300px;
+}
+
+
+.section7 .pic-section-4{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-top: 10px;
+}
+
+
+.section7 .pic-section-4 img{
+    width:500px;
+    height: 300px;
+}
+
