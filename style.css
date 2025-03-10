@@ -1,7 +1,7 @@
 body{
     height: 100%;
     width: 100%;
-    background-color:rgb(150, 145, 145);
+    background-color:rgb(5, 5, 5);
     overflow-x: hidden;
 }
 
@@ -348,18 +348,74 @@ font-weight: bolder;
 /*Section 9 Start*/
 
 
-.section9 .Calculator .Calculator-1 table{
-    width: 400px;
+.section9{
+    padding-left: 200px;
+    padding-right: 150px;
+    background-color: rgb(95, 95, 116);
+    margin-top: 100px;
+}
+
+
+.section9 .Calculator{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+.section9 .Calculator .BMI h1{
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+.section9 .Calculator .BMI table th{
+    color: whitesmoke;
+}
+
+.section9 .Calculator .BMI table{
+    width: 500px;
+    height: 265px;
     text-align: center;
    
 }
 
-.section9 .Calculator .Calculator-1 table th, td{
+.section9 .Calculator .BMI table th, td{
     border:1px solid white;
     padding: 10px;
     border-collapse: collapse;
 }
 
 
+.section9 .Calculator .Calculate-BMI h1{
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+.section9 .Calculator .Calculate-BMI h3{
+    color: rgb(140, 140, 141);
+}
 
 
+.section9 .Calculator .Calculate-BMI .input-1{
+    padding: 20px 40px 20px 30px;
+    border-radius: 10px;
+    border: 1px solid grey;
+  margin: 5px;
+}
+
+.section9 .Calculator .Calculate-BMI .input-2{
+    padding: 20px 300px 20px 30px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin: 5px;
+}
+
+
+.section9 .Calculator .Calculate-BMI .btn-4{
+    border: 1px solid orangered;
+   padding:20px 100px;
+   font-size: 25px;
+   color: whitesmoke;
+   background-color: orangered;
+   border-radius: 30px;
+   cursor: pointer;
+}
