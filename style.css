@@ -459,6 +459,7 @@ font-weight: bolder;
 .section11{
     padding-left: 200px;
     padding-right: 150px;
+    background-color: rgb(59, 58, 58);
 }
 
 
@@ -468,18 +469,80 @@ font-weight: bolder;
 }
 
 
-.section11 .pic-section-5 img{
+.section11 .pic-section-5 .image-container{
+    position: relative;
+    display: inline-block;
+    
+}
+
+.section11 .pic-section-5 .image-container img{
     width: 500px;
     height: 400px;
     border-radius: 15px;
+    margin: 10px;
+}
+
+
+.section11 .pic-section-5 .image-container .text-overlay{
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    transform: translate(-20%, -40%);
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
 }
 
 .section11 .pic-section-5 h1{
-    color: whitesmoke;
+    color: rgb(255, 13, 5);
+    font-size: 35px;
     
+}
+
+
+.section11 .pic-section-5 h3{
+    font-size: 25px;
+    color: whitesmoke;
 }
 
 .section11 .pic-section-6{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+}
+
+
+.section11 .pic-section-6 .image-container{
+    position: relative;
+    display: inline-block;
+    
+}
+
+.section11 .pic-section-6 .image-container img{
+    width: 500px;
+    height: 400px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+
+.section11 .pic-section-6 .image-container .text-overlay{
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    transform: translate(-20%, -40%);
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.section11 .pic-section-6 h1{
+    color: rgb(255, 13, 5);
+    font-size: 35px;
+    
+}
+
+
+.section11 .pic-section-6 h3{
+    font-size: 25px;
+    color: whitesmoke;
 }
