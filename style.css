@@ -351,8 +351,9 @@ font-weight: bolder;
 .section9{
     padding-left: 200px;
     padding-right: 150px;
-    background-color: rgb(95, 95, 116);
+    background-color: rgb(39, 39, 39);
     margin-top: 100px;
+    height: 550px;
 }
 
 
@@ -378,6 +379,9 @@ font-weight: bolder;
    
 }
 
+.section9 .Calculator .BMI table td{
+    color: rgb(116, 117, 117);
+}
 .section9 .Calculator .BMI table th, td{
     border:1px solid white;
     padding: 10px;
@@ -418,4 +422,5 @@ font-weight: bolder;
    background-color: orangered;
    border-radius: 30px;
    cursor: pointer;
+   margin: 5px;
 }
