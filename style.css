@@ -459,31 +459,36 @@ font-weight: bolder;
 .section11{
     padding-left: 200px;
     padding-right: 150px;
-    background-color: rgb(59, 58, 58);
 }
 
 
-.section11 .pic-section-5{
+.section11 .Emargency{
+    background-color: rgb(44, 44, 44);
+    border-radius: 15px;
+}
+
+
+.section11 .Emargency .pic-section-5{
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
 
 
-.section11 .pic-section-5 .image-container{
+.section11 .Emargency .pic-section-5 .image-container{
     position: relative;
     display: inline-block;
     
 }
 
-.section11 .pic-section-5 .image-container img{
-    width: 500px;
+.section11 .Emargency .pic-section-5 .image-container img{
+    width: 485px;
     height: 400px;
     border-radius: 15px;
     margin: 10px;
 }
 
 
-.section11 .pic-section-5 .image-container .text-overlay{
+.section11 .Emargency .pic-section-5 .image-container .text-overlay{
     position: absolute;
     top: 80%;
     left: 20%;
@@ -493,39 +498,39 @@ font-weight: bolder;
     border-radius: 5px;
 }
 
-.section11 .pic-section-5 h1{
+.section11 .Emargency .pic-section-5 h1{
     color: rgb(255, 13, 5);
     font-size: 35px;
     
 }
 
 
-.section11 .pic-section-5 h3{
+.section11 .Emargency .pic-section-5 h3{
     font-size: 25px;
     color: whitesmoke;
 }
 
-.section11 .pic-section-6{
+.section11 .Emargency .pic-section-6{
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
 
 
-.section11 .pic-section-6 .image-container{
+.section11 .Emargency .pic-section-6 .image-container{
     position: relative;
     display: inline-block;
     
 }
 
-.section11 .pic-section-6 .image-container img{
-    width: 500px;
+.section11 .Emargency .pic-section-6 .image-container img{
+    width: 485px;
     height: 400px;
     border-radius: 15px;
     margin: 10px;
 }
 
 
-.section11 .pic-section-6 .image-container .text-overlay{
+.section11 .Emargency .pic-section-6 .image-container .text-overlay{
     position: absolute;
     top: 80%;
     left: 20%;
@@ -535,14 +540,14 @@ font-weight: bolder;
     border-radius: 5px;
 }
 
-.section11 .pic-section-6 h1{
+.section11 .Emargency .pic-section-6 h1{
     color: rgb(255, 13, 5);
     font-size: 35px;
     
 }
 
 
-.section11 .pic-section-6 h3{
+.section11 .Emargency .pic-section-6 h3{
     font-size: 25px;
     color: whitesmoke;
 }
