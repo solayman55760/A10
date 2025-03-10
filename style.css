@@ -1,7 +1,7 @@
 body{
     height: 100%;
     width: 100%;
-    background-color:rgb(19, 18, 18);
+    background-color:rgb(150, 145, 145);
     overflow-x: hidden;
 }
 
@@ -316,4 +316,48 @@ text-align: center;
 
 
 /*Section 7 End*/
+
+
+/*section 8 start*/
+
+.section8{
+    padding-left: 400px;
+    padding-right: 150px;
+    padding-top: 100px;
+}
+
+
+.section8 .text5{
+    line-height: 15px;
+}
+
+.section8 .text5 h1{
+color: whitesmoke;
+font-size: 70px;
+font-weight: bolder;
+}
+
+
+.section8 .text5 h3{
+    color:rgb(140, 140, 141);
+    font-size: 20px;
+}
+
+/*Section 8 End*/
+
+/*Section 9 Start*/
+
+
+.section9 .Calculator .Calculator-1 table{
+    width: 400px;
+    text-align:left;
+}
+
+.section9 .Calculator .Calculator-1 table th, td{
+    border: 1px solid white;
+    
+}
+
+
+
 
