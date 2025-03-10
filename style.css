@@ -424,3 +424,62 @@ font-weight: bolder;
    cursor: pointer;
    margin: 5px;
 }
+
+
+/*Section 9 End*/
+
+
+/*Section 10 Start*/
+
+.section10{
+    padding-left: 200px;
+    padding-right: 150px;
+    margin-bottom: 100px;
+}
+
+
+.section10 h1{
+    font-size: 70px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+
+.section10 h3{
+    font-size: 20px;
+    color: rgb(140, 140, 141);
+    text-align: center;
+}
+
+/*Section 10 End*/
+
+
+/*Section 11 Start*/
+
+.section11{
+    padding-left: 200px;
+    padding-right: 150px;
+}
+
+
+.section11 .pic-section-5{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+.section11 .pic-section-5 img{
+    width: 500px;
+    height: 400px;
+    border-radius: 15px;
+}
+
+.section11 .pic-section-5 h1{
+    color: whitesmoke;
+    
+}
+
+.section11 .pic-section-6{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
