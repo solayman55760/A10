@@ -553,3 +553,70 @@ font-weight: bolder;
 }
 
 /*Section 11 End*/
+
+
+/*Section 12 Start*/
+
+.section12{
+    padding-left: 200px;
+    padding-right: 150px;
+    padding-top: 100px;
+    background-color:rgb(44, 44, 44) ;
+    margin-top: 120px;
+}
+
+
+.section12 .footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+
+
+.section12 .footer .footer-1 h1{
+    color: orangered;
+    font-size: 80px;
+    font-weight:bolder;
+    line-height: 10px;
+}
+
+.section12 .footer .footer-1 h3{
+    color: rgb(140, 140, 141);
+    font-size: 20px;
+}
+
+
+.section12 .footer .footer-2{
+    padding-left: 250px;
+}
+
+
+.section12 .footer .footer-2 h1{
+    color: whitesmoke;
+    font-size: 40px;
+}
+
+
+.section12 .footer .footer-2 h2{
+    color: rgb(140, 140, 141);
+    font-size: 30px;
+}
+
+
+.section12 .footer .footer-3{
+    padding-left: 100px;
+}
+
+
+.section12 .footer .footer-3 h1{
+    color: whitesmoke;
+    font-size: 40px;
+}
+
+
+.section12 .footer .footer-3 h2{
+    color: rgb(140, 140, 141);
+    font-size: 30px;
+}
+
+/*Section 12 End*/
