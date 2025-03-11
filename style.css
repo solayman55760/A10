@@ -102,7 +102,7 @@ color: white;
     border: 1px solid white;
     border-radius: 20px;
     padding: 5px 5px 5px 30px;
-    background-color: rgb(46, 45, 45);
+    background-color: rgb(31, 30, 30);
     line-height: 2px;
  
 }
@@ -126,7 +126,7 @@ color: white;
     border: 1px solid white;
     border-radius: 20px;
     padding: 5px 5px 5px 30px;
-    background-color: rgb(46, 45, 45);
+    background-color: rgb(31, 30, 30);
     line-height: 2px;
 }
 
@@ -215,7 +215,7 @@ text-align: center;
 .section5 .extra-run{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    background-color:rgb(48, 47, 47);
+    background-color:rgb(31, 30, 30);
     height: 450px;
     border-radius: 20px;
 }
@@ -351,7 +351,7 @@ font-weight: bolder;
 .section9{
     padding-left: 200px;
     padding-right: 150px;
-    background-color: rgb(39, 39, 39);
+    background-color: rgb(31, 30, 30);
     margin-top: 100px;
     height: 550px;
 }
@@ -463,7 +463,7 @@ font-weight: bolder;
 
 
 .section11 .Emargency{
-    background-color: rgb(44, 44, 44);
+    background-color: rgb(31, 30, 30);
     border-radius: 15px;
 }
 
@@ -561,7 +561,7 @@ font-weight: bolder;
     padding-left: 200px;
     padding-right: 150px;
     padding-top: 100px;
-    background-color:rgb(44, 44, 44) ;
+    background-color:rgb(31, 30, 30) ;
     margin-top: 120px;
 }
 
@@ -620,3 +620,21 @@ font-weight: bolder;
 }
 
 /*Section 12 End*/
+
+/*Section 12 Start*/
+
+
+.section13{
+    padding-left: 200px;
+    padding-right: 150px;
+    padding-top: 50px;
+    background-color:rgb(31, 30, 30) ;
+    height: 150px;
+    
+}
+
+
+.section13 h1{
+    text-align: center;
+    color: rgb(117, 115, 115);
+}
