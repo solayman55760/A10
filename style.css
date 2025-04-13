@@ -1,649 +1,657 @@
-body{
-    height: 100%;
-    width: 100%;
-    background-color:rgb(5, 5, 5);
-    overflow-x: hidden;
-    box-sizing: border-box;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
 }
 
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(5, 5, 5);
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+.flex-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+.w-33 {
+  width: 33%;
+}
+.w-30 {
+  width: 30%;
+}
+.w-40 {
+  width: 40%;
+}
+.w-45 {
+  width: 45%;
+}
+.w-50 {
+  width: 50%;
+}
+.w-60 {
+  width: 60%;
+}
+.container {
+  width: 90%;
+  max-width: 1600px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+section{
+  width: 100%;
+}
 /*Header start*/
-.section1{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+
+.section1 .name {
+  font-size: 4.5rem;
+  color: orangered;
+  font-weight: 700;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.menu-toggle{
+  display: none;
+}
+.section1 .navbar {
+  color: white;
+  border: 0.5px solid ghostwhite;
+  border-radius: 20px;
+  font-size: 25px;
+  width: max-content;
+  display: flex;
+  align-items: center;
 }
 
-.section1 .name{
-    padding-left: 200px;
-    font-size: 45px;
-    color: orangered;
-    font-weight: 700;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+.section1 .navbar .navbar1 {
+  background-color: orangered;
 }
-
-
-.section1 .navbar{
-    width: 500px;
-    display: grid;
-    grid-template-columns:repeat(4,1fr);
-    color: white;
-    border: .5px solid ghostwhite;
-    border-radius: 20px;
-    margin-top: 45px;
-    margin-bottom: 45px;
-    font-size: 25px;
-    margin-left: 200px;
-    
+.section1 .navbar ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
 }
-
-.section1 .navbar .navbar1{
-   background-color: orangered;
+.section1 .navbar a{
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px;
 }
 
 /*Header End*/
 
 /*Body part start*/
-.section2{
-    width: 100%;
-    height: 600px;
+.section2 {
+  width: 100%;
+  height: 600px;
 }
 
-.section2 .text1-pic1{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    padding-left: 200px;
-    padding-right: 150px;
-    height: 600px;
+.banner-section .inner .text1 h1 {
+  font-size: 8rem;
+  color: white;
 }
 
-.section2 .text1-pic1 .text1{
-    height: 600px;
+.banner-section .inner .text1 h3 {
+  font-size: 25px;
+  color: rgb(75, 78, 80);
 }
 
-.section2 .text1-pic1 .text1 h1{
-font-size: 80px;
-color: white;
+.banner-section .inner .text1 .btn1 {
+  padding: 15px 30px 15px 30px;
+  font-size: 20px;
+  color: white;
+  background-color: orangered;
+  border: 1px solid orangered;
+  border-radius: 20px;
+  cursor: pointer;
 }
 
-.section2 .text1-pic1 .text1 h3{
-    font-size: 25px;
-    color: rgb(75, 78, 80);
+.banner-section .inner .text1 .btn2 {
+  padding: 15px 30px 15px 30px;
+  font-size: 20px;
+  color: rgb(82, 82, 233);
+  border: 1px solid whitesmoke;
+  border-radius: 20px;
+  margin-left: 20px;
+  cursor: pointer;
 }
 
-.section2 .text1-pic1 .text1 .btn1{
-    padding: 15px 30px 15px 30px;
-    font-size: 20px;
-    color: white;
-    background-color: orangered;
-    border: 1px solid orangered;
-    border-radius: 20px;
-    cursor:pointer;
+.banner-section .inner .pic1 {
+  background-image: url(Images\ 2.2.png);
+  background-repeat: no-repeat;
+  background-size: 500px 700px;
 }
 
-
-.section2 .text1-pic1 .text1 .btn2{
-    padding: 15px 30px 15px 30px;
-    font-size: 20px;
-    color: rgb(82, 82, 233);
-    border: 1px solid whitesmoke;
-    border-radius: 20px;
-    margin-left: 20px;
-    cursor:pointer;
+.banner-section .inner .pic1 .info1 {
+  margin-left: 350px;
+  margin-top: 150px;
+  margin-right: 200px;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 5px 5px 5px 30px;
+  background-color: rgb(31, 30, 30);
+  line-height: 2px;
+  width: max-content;
 }
 
-.section2 .text1-pic1 .pic1{
-    background-image: url(Images\ 2.2.png);
-    background-repeat: no-repeat;
-    background-size:500px 700px;       
+.banner-section .inner .pic1 .info1 h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
 }
 
-.section2 .text1-pic1 .pic1 .info1{
-    margin-left: 350px;
-    margin-top: 150px;
-    margin-right: 200px;
-    border: 1px solid white;
-    border-radius: 20px;
-    padding: 5px 5px 5px 30px;
-    background-color: rgb(31, 30, 30);
-    line-height: 2px;
- 
+.banner-section .inner .pic1 .info1 h3 {
+  color: rgb(171, 176, 180);
 }
 
-
-.section2 .text1-pic1 .pic1 .info1 h1{
-    color: white;
-    font-size: 50px;
-    font-weight: bolder;
+.banner-section .inner .pic1 .info2 {
+  margin-top: 150px;
+  margin-right: 550px;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 5px 5px 5px 30px;
+  background-color: rgb(31, 30, 30);
+  line-height: 2px;
+  width: max-content;
 }
 
-
-.section2 .text1-pic1 .pic1 .info1 h3{
-    color: rgb(171, 176, 180);
+.banner-section .inner .pic1 .info2 h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
 }
 
-
-.section2 .text1-pic1 .pic1 .info2{
-    margin-top: 150px;
-    margin-right: 550px;
-    border: 1px solid white;
-    border-radius: 20px;
-    padding: 5px 5px 5px 30px;
-    background-color: rgb(31, 30, 30);
-    line-height: 2px;
-}
-
-
-.section2 .text1-pic1 .pic1 .info2 h1{
-    color: white;
-    font-size: 50px;
-    font-weight: bolder;
-}
-
-
-.section2 .text1-pic1 .pic1 .info2 h3{
-    color: rgb(171, 176, 180);
+.banner-section .inner .pic1 .info2 h3 {
+  color: rgb(171, 176, 180);
 }
 /*Body part End*/
 
 /*Section 3 Start*/
-.section3{
-    padding-left: 350px;
-    padding-right: 250px;
-    line-height: 25px;
+.section3 {
 
+  line-height: 25px;
 }
 
-.section3 .text2 h1{
-    font-size: 90px;
-    text-align: center;
-    color: azure;
+.section3 .text2 h1 {
+  font-size: 9rem;
+  text-align: center;
+  color: azure;
 }
 
-
-.section3 .text2 h3{
-    font-size: 25px;
-    text-align: center;
-    color: rgb(124, 131, 131);
-    
+.section3 .text2 h3 {
+  font-size: 25px;
+  text-align: center;
+  color: rgb(124, 131, 131);
 }
 /*Section 3 End*/
 
-
 /*Section 4 Start*/
-.section4{
-    padding-left: 200px;
-    padding-right: 150px;
+
+.section4 .pic-section-2 {
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
-.section4 .pic-section-2{
-    padding-top: 100px;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-   
+.section4 .pic-section-2 img {
+  border: 5px solid rgb(70, 69, 69);
+  border-radius: 50%;
+  justify-content: center;
+  justify-items: center;
+  text-align: justify;
+  margin-left: 70px;
 }
 
-.section4 .pic-section-2 img{
-    border: 5px solid rgb(70, 69, 69);
-    border-radius: 50%;
-    width: 250px;
-    justify-content: center;   
-    justify-items: center;
-    text-align: justify;
-    margin-left: 70px;
+.section4 .pic-section-2 h1 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
 }
 
-.section4 .pic-section-2 h1{
-    color: white;
-    text-align: center;
-    font-size: 40px;
-}
-
-.section4 .pic-section-2 h3{
-color: rgb(138, 140, 141);
-text-align: center;
+.section4 .pic-section-2 h3 {
+  color: rgb(138, 140, 141);
+  text-align: center;
 }
 
 /*Section 4 End*/
 
 /*section 5 start*/
 
-.section5{
-    padding-left: 200px;
-    padding-right: 150px;
-    width: 80%;
-    padding-top:100px;
+.section5 {
+  padding-top: 100px;
 }
 
-.section5 .extra-run{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    background-color:rgb(31, 30, 30);
-    height: 450px;
-    border-radius: 20px;
+.section5 .extra-run {
+  background-color: rgb(31, 30, 30);
+  border-radius: 20px;
+  padding: 50px;
 }
 
 
-.section5 .extra-run .text3{
-  padding-left: 75px;  
-  padding-top: 30px;
+.section5 .extra-run .text3 h1 {
+  font-size: 50px;
+  color: azure;
+  font-weight: bolder;
 }
 
-
-.section5 .extra-run .text3 h1{
-    font-size: 50px;
-    color: azure;
-    font-weight: bolder;
+.section5 .extra-run .text3 h3 {
+  font-size: 20px;
+  color: rgb(138, 140, 141);
 }
 
-.section5 .extra-run .text3 h3{
-    font-size: 20px;
-    color: rgb(138, 140, 141);
+.section5 .extra-run .pic2 img {
+  width: 100%;
+  height: 350px;
+  border-radius: 20px;
+  object-fit: cover;
 }
 
-.section5 .extra-run .pic2 img{
-    width:400px ;
-    height: 350px;
-    padding-top: 55px;
-    padding-left: 300px;
-    border-radius: 20px;
+.section5 .extra-run .text3 .btn3 {
+  border: 1px solid orangered;
+  font-size: 25px;
+  color: whitesmoke;
+  background-color: orangered;
+  border-radius: 20px;
+  cursor: pointer;
 }
-
-
-.section5 .extra-run .text3 .btn3{
-   border: 1px solid orangered;
-   padding:20px 70px;
-   font-size: 25px;
-   color: whitesmoke;
-   background-color: orangered;
-   border-radius: 20px;
-   cursor: pointer;
-}
-
 
 /*Section 5 End*/
 
 /* Section 6 Start*/
 
-.section6{
-    padding-left: 200px;
-    padding-right: 150px;
-    padding-top: 100px;
-    line-height: 30px;
+.section6 {
+  padding-top: 100px;
+  line-height: 30px;
 }
 
-
-.section6 .text4 h1{
+.section6 .text4 h1 {
   font-size: 70px;
   color: aliceblue;
 }
 
-
-.section6 .text4 h3{
-    color: rgb(140, 140, 141);
+.section6 .text4 h3 {
+  color: rgb(140, 140, 141);
 }
 
 /* Section 6 End*/
 
 /*Section 7 Start*/
 
-.section7{
-    padding-left: 200px;
-    padding-right: 150px;
-    padding-top: 100px;
+.section7 {
+  padding-top: 100px;
 }
 
-.section7 .pic-section-3{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+.section7 .pic-section-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px 30px;
 }
 
-
-.section7 .pic-section-3 img{
-    width:500px;
-    height: 300px;
+.section7 .pic-section-3 img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
 
-
-.section7 .pic-section-4{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    padding-top: 10px;
+.section7 .pic-section-4 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 10px;
 }
 
-
-.section7 .pic-section-4 img{
-    width:500px;
-    height: 300px;
+.section7 .pic-section-4 img {
+  width: 500px;
+  height: 300px;
 }
-
 
 /*Section 7 End*/
 
-
 /*section 8 start*/
 
-.section8{
-    padding-left: 400px;
-    padding-right: 150px;
-    padding-top: 100px;
+.section8 {
+  padding-top: 100px;
 }
 
-
-.section8 .text5{
-    line-height: 15px;
+.section8 .text5 {
+  line-height: 15px;
 }
 
-.section8 .text5 h1{
-color: whitesmoke;
-font-size: 70px;
-font-weight: bolder;
+.section8 .text5 h1 {
+  color: whitesmoke;
+  font-size: 70px;
+  font-weight: bolder;
 }
 
-
-.section8 .text5 h3{
-    color:rgb(140, 140, 141);
-    font-size: 20px;
+.section8 .text5 h3 {
+  color: rgb(140, 140, 141);
+  font-size: 20px;
 }
 
 /*Section 8 End*/
 
 /*Section 9 Start*/
 
-
-.section9{
-    padding-left: 200px;
-    padding-right: 150px;
-    background-color: rgb(31, 30, 30);
-    margin-top: 100px;
-    height: 550px;
+.section9 {
+  background-color: rgb(31, 30, 30);
+  margin-top: 100px;
+  padding: 50px 0;
 }
 
-
-.section9 .Calculator{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+.section9 .Calculator .BMI h1 {
+  font-size: 50px;
+  color: whitesmoke;
 }
 
-
-.section9 .Calculator .BMI h1{
-    font-size: 50px;
-    color: whitesmoke;
+.section9 .Calculator .BMI table th {
+  color: whitesmoke;
 }
 
-.section9 .Calculator .BMI table th{
-    color: whitesmoke;
+.section9 .Calculator .BMI table {
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
 }
 
-.section9 .Calculator .BMI table{
-    width: 500px;
-    height: 265px;
-    text-align: center;
-   
+.section9 .Calculator .BMI table td {
+  color: rgb(116, 117, 117);
+}
+.section9 .Calculator .BMI table th,
+td {
+  border: 1px solid white;
+  padding: 10px;
+  border-collapse: collapse;
 }
 
-.section9 .Calculator .BMI table td{
-    color: rgb(116, 117, 117);
-}
-.section9 .Calculator .BMI table th, td{
-    border:1px solid white;
-    padding: 10px;
-    border-collapse: collapse;
+.section9 .Calculator .Calculate-BMI h1 {
+  font-size: 50px;
+  color: whitesmoke;
 }
 
-
-.section9 .Calculator .Calculate-BMI h1{
-    font-size: 50px;
-    color: whitesmoke;
+.section9 .Calculator .Calculate-BMI h3 {
+  color: rgb(140, 140, 141);
 }
 
-.section9 .Calculator .Calculate-BMI h3{
-    color: rgb(140, 140, 141);
-}
-
-
-.section9 .Calculator .Calculate-BMI .input-1{
-    padding: 20px 40px 20px 30px;
-    border-radius: 10px;
-    border: 1px solid grey;
+.section9 .Calculator .Calculate-BMI input {
+  padding: 20px 40px 20px 30px;
+  border-radius: 10px;
+  border: 1px solid grey;
   margin: 5px;
 }
 
-.section9 .Calculator .Calculate-BMI .input-2{
-    padding: 20px 300px 20px 30px;
-    border-radius: 10px;
-    border: 1px solid grey;
-    margin: 5px;
+
+.section9 .Calculator .Calculate-BMI .btn-4 {
+  border: 1px solid orangered;
+  padding: 20px 100px;
+  font-size: 25px;
+  color: whitesmoke;
+  background-color: orangered;
+  border-radius: 30px;
+  cursor: pointer;
+  margin: 5px;
 }
-
-
-.section9 .Calculator .Calculate-BMI .btn-4{
-    border: 1px solid orangered;
-   padding:20px 100px;
-   font-size: 25px;
-   color: whitesmoke;
-   background-color: orangered;
-   border-radius: 30px;
-   cursor: pointer;
-   margin: 5px;
-}
-
 
 /*Section 9 End*/
 
-
 /*Section 10 Start*/
 
-.section10{
-    padding-left: 200px;
-    padding-right: 150px;
-    margin-bottom: 100px;
+.section10 {
+  margin-bottom: 100px;
 }
 
-
-.section10 h1{
-    font-size: 70px;
-    color: whitesmoke;
-    text-align: center;
+.section10 h1 {
+  font-size: 70px;
+  color: whitesmoke;
+  text-align: center;
 }
 
-
-.section10 h3{
-    font-size: 20px;
-    color: rgb(140, 140, 141);
-    text-align: center;
+.section10 h3 {
+  font-size: 20px;
+  color: rgb(140, 140, 141);
+  text-align: center;
 }
 
 /*Section 10 End*/
 
-
 /*Section 11 Start*/
 
-.section11{
-    padding-left: 200px;
-    padding-right: 150px;
+
+.section11 .Emargency {
+  background-color: rgb(31, 30, 30);
+  border-radius: 15px;
 }
 
-
-.section11 .Emargency{
-    background-color: rgb(31, 30, 30);
-    border-radius: 15px;
+.section11 .Emargency .pic-section-5 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
-
-.section11 .Emargency .pic-section-5{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+.section11 .Emargency .pic-section-5 .image-container {
+  position: relative;
+  display: inline-block;
 }
 
-
-.section11 .Emargency .pic-section-5 .image-container{
-    position: relative;
-    display: inline-block;
-    
+.section11 .Emargency .pic-section-5 .image-container img {
+  width: 100%;
+  height: 400px;
+  border-radius: 15px;
+  margin: 10px;
+  object-fit: cover;
 }
 
-.section11 .Emargency .pic-section-5 .image-container img{
-    width: 485px;
-    height: 400px;
-    border-radius: 15px;
-    margin: 10px;
+.section11 .Emargency .pic-section-5 .image-container .text-overlay {
+  position: absolute;
+  top: 80%;
+  left: 20%;
+  transform: translate(-20%, -40%);
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
 }
 
-
-.section11 .Emargency .pic-section-5 .image-container .text-overlay{
-    position: absolute;
-    top: 80%;
-    left: 20%;
-    transform: translate(-20%, -40%);
-    font-size: 20px;
-    font-weight: bold;
-    border-radius: 5px;
+.section11 .Emargency .pic-section-5 h1 {
+  color: rgb(255, 13, 5);
+  font-size: 35px;
 }
 
-.section11 .Emargency .pic-section-5 h1{
-    color: rgb(255, 13, 5);
-    font-size: 35px;
-    
+.section11 .Emargency .pic-section-5 h3 {
+  font-size: 25px;
+  color: whitesmoke;
 }
 
-
-.section11 .Emargency .pic-section-5 h3{
-    font-size: 25px;
-    color: whitesmoke;
+.section11 .Emargency .pic-section-6 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
-.section11 .Emargency .pic-section-6{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+.section11 .Emargency .pic-section-6 .image-container {
+  position: relative;
+  display: inline-block;
 }
 
-
-.section11 .Emargency .pic-section-6 .image-container{
-    position: relative;
-    display: inline-block;
-    
+.section11 .Emargency .pic-section-6 .image-container img {
+  width: 485px;
+  height: 400px;
+  border-radius: 15px;
+  margin: 10px;
 }
 
-.section11 .Emargency .pic-section-6 .image-container img{
-    width: 485px;
-    height: 400px;
-    border-radius: 15px;
-    margin: 10px;
+.section11 .Emargency .pic-section-6 .image-container .text-overlay {
+  position: absolute;
+  top: 80%;
+  left: 20%;
+  transform: translate(-20%, -40%);
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
 }
 
-
-.section11 .Emargency .pic-section-6 .image-container .text-overlay{
-    position: absolute;
-    top: 80%;
-    left: 20%;
-    transform: translate(-20%, -40%);
-    font-size: 20px;
-    font-weight: bold;
-    border-radius: 5px;
+.section11 .Emargency .pic-section-6 h1 {
+  color: rgb(255, 13, 5);
+  font-size: 35px;
 }
 
-.section11 .Emargency .pic-section-6 h1{
-    color: rgb(255, 13, 5);
-    font-size: 35px;
-    
-}
-
-
-.section11 .Emargency .pic-section-6 h3{
-    font-size: 25px;
-    color: whitesmoke;
+.section11 .Emargency .pic-section-6 h3 {
+  font-size: 25px;
+  color: whitesmoke;
 }
 
 /*Section 11 End*/
 
-
 /*Section 12 Start*/
 
-.section12{
-    padding-left: 200px;
-    padding-right: 150px;
-    padding-top: 100px;
-    background-color:rgb(31, 30, 30) ;
-    margin-top: 120px;
+.section12 {
+  padding-top: 100px;
+  background-color: rgb(31, 30, 30);
+  margin-top: 120px;
 }
 
-
-.section12 .footer{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    
+.section12 .footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
-
-.section12 .footer .footer-1 h1{
-    color: orangered;
-    font-size: 80px;
-    font-weight:bolder;
-    line-height: 10px;
+.section12 .footer .footer-1 h1 {
+  color: orangered;
+  font-size: 80px;
+  font-weight: bolder;
+  line-height: 10px;
 }
 
-.section12 .footer .footer-1 h3{
-    color: rgb(140, 140, 141);
-    font-size: 20px;
+.section12 .footer .footer-1 h3 {
+  color: rgb(140, 140, 141);
+  font-size: 20px;
 }
 
-
-.section12 .footer .footer-2{
-    padding-left: 250px;
+.section12 .footer .footer-2 {
+  padding-left: 250px;
 }
 
-
-.section12 .footer .footer-2 h1{
-    color: whitesmoke;
-    font-size: 40px;
+.section12 .footer .footer-2 h1 {
+  color: whitesmoke;
+  font-size: 40px;
 }
 
-
-.section12 .footer .footer-2 h2{
-    color: rgb(140, 140, 141);
-    font-size: 30px;
+.section12 .footer .footer-2 h2 {
+  color: rgb(140, 140, 141);
+  font-size: 30px;
 }
 
-
-.section12 .footer .footer-3{
-    padding-left: 100px;
+.section12 .footer .footer-3 {
+  padding-left: 100px;
 }
 
-
-.section12 .footer .footer-3 h1{
-    color: whitesmoke;
-    font-size: 40px;
+.section12 .footer .footer-3 h1 {
+  color: whitesmoke;
+  font-size: 40px;
 }
 
-
-.section12 .footer .footer-3 h2{
-    color: rgb(140, 140, 141);
-    font-size: 30px;
+.section12 .footer .footer-3 h2 {
+  color: rgb(140, 140, 141);
+  font-size: 30px;
 }
 
 /*Section 12 End*/
 
-
-
 /*Section 13 Start*/
-.section13{
-    padding-left: 200px;
-    padding-right: 150px;
-    padding-top: 50px;
-    background-color:rgb(31, 30, 30) ;
-    height: 150px;   
+.section13 {
+  padding-top: 50px;
+  background-color: rgb(31, 30, 30);
+  height: 150px;
 }
 
-
-.section13 h1{
-    text-align: center;
-    color: rgb(117, 115, 115);
+.section13 h1 {
+  text-align: center;
+  color: rgb(117, 115, 115);
 }
 
 /*Section 13 End*/
 
+@media only screen and (max-width: 1200px) {
+  html {
+    font-size: 60%;
+  }
+}
 
+@media only screen and (max-width: 1024px){
+  .full-width-1024{
+    width: 100%;
+  }
+  .md-mt-50{
+    margin-top: 50px;
+  }
+  .section1 .navbar{
+    position: fixed;
+    left: -200%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background-color: #333;
+    transition: all 0.5s ease;
+  }
+  .section1 .navbar ul{
+    flex-direction: column;
+  }
+  .section1 .navbar ul a{
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+  }
+  .section1 .navbar.active{
+    left: 0;
+  }
+  .menu-toggle{
+    display: flex;
+    width: 70px;
+    height: 70px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    position: relative;
+  }
+  .menu-toggle span{
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 5px;
+  }
+  .section2 {
+   
+    height: auto;
+  }
+  .banner-section .inner{
+    flex-direction: column-reverse;
+  }
+  .banner-section .inner .w-45{
+    width: 100%;
+  }
+  .banner-section .inner .text1 h1 br{
+    display: none;
+  }
+  .banner-section .inner .pic1{
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .section4 .pic-section-2{
+    grid-template-columns: repeat(2 , 1fr);
+  }
+}
 
+@media only screen and (max-width: 800px){
 
-
-
-
+}
